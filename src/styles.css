@@ -1,0 +1,34 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Dark theme global styles */
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+  min-height: 100vh;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Dark theme card styles */
+.card {
+  background-color: #343a40;
+  border-color: #495057;
+  color: #f8f9fa;
+}
+
+.card-header {
+  background-color: #495057;
+  border-bottom-color: #6c757d;
+}
+
+/* Link colors for dark theme */
+a {
+  color: #0dcaf0;
+}
+
+a:hover {
+  color: #3dd5f3;
+}
