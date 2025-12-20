@@ -1,8 +1,9 @@
 import { Routes } from '@angular/router';
-import { Home } from './components/home/home';
+
 import { Book } from './components/book/book';
-import { Merch } from './components/merch/merch';
+import { Home } from './components/home/home';
 import { Live } from './components/live/live';
+import { Merch } from './components/merch/merch';
 
 export const routes: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
