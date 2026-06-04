@@ -1,0 +1,4 @@
+# suppress console warnings when performing git operations in a windows environment
+* text=auto
+*.json text eol=lf
+package-lock.json text eol=lf
